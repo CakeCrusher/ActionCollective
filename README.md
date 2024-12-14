@@ -1,24 +1,26 @@
+Inspired by [DynaSaur: Large Language Agents Beyond Predefined Actions](https://arxiv.org/abs/2411.01747)
+
 # Action Collective Manifesto: Empowering LLM Agents with Dynamic, Extensible Actions
 
 ## I. Introduction and Motivation
 
-In the rapidly evolving landscape of AI, Large Language Models (LLMs) have demonstrated remarkable reasoning abilities. These models, trained on massive corpora, excel at logical deduction, problem-solving, and understanding complex domains. They can now reason about when and how to use tools, making it possible to construct autonomous agents that solve problems via an unconstrained sequence of decisions—no longer limited to linear, predefined flows.
+LLMs, trained on massive corpora, excel at logical deduction, problem-solving, and understanding complex domains. They can reason about when and how to use tools, making it possible to construct autonomous agents that solve problems via an unconstrained sequence of decisions—no longer limited to linear, predefined flows.
 
-Traditional LLM-based agents rely on small sets of hand-crafted tools to solve given tasks. While effective in predictable scenarios, this approach struggles in real-world conditions requiring flexibility, creativity, and the discovery of new capabilities as challenges arise. The next logical step is to tap into the LLM’s own code generation prowess, allowing agents to dynamically produce, refine, and utilize new tools—actions represented as code. By doing so, we transform a static action space into one that can continuously expand and evolve.
+Traditional LLM-based agents rely on sets of hand-crafted tools to solve given tasks. While effective in controlled environments, this approach struggles in more freeform conditions requiring flexibility, creativity, and the discovery of new capabilities as challenges arise. The next logical step is to tap into the LLM’s own code generation prowess, allowing agents to dynamically produce, refine, and utilize new tools—actions represented as code. By doing so, we transform a static action space into one that can continuously expand and evolve.
 
-This is where our project comes in: a platform and ecosystem that empowers LLM agents to access a vast, ever-growing database of actions contributed by a community of AI engineers. As a result, agents gain the capacity to handle an increasingly diverse array of tasks, leveraging the collective ingenuity of the community’s contributions. Ultimately, this project transforms static tool use into a general-purpose, dynamic framework, supercharging the potential of LLM agents across myriad problem domains.
+This is where Action Collective comes in: a platform and ecosystem that empowers LLM agents to access a vast, ever-growing database of actions passively contributed by its users. As a result, agents gain the capacity to handle an increasingly diverse array of tasks, leveraging the collective's energy and ingenuity. Ultimately, this project transforms static tool use into a general-purpose, dynamic framework, supercharging the potential of LLM agents across myriad problem domains.
 
 ## II. The Core Objective
 
 **Goal:** Elevate LLM agents from constrained problem-solvers to boundless solution-finders by enabling them to discover, create, and reuse dynamically generated actions.
 
-**Vision:** Rather than manually coding every conceivable action, we will build an open ecosystem where users upload their own actions—tested, reliable, and easily discoverable. By pooling the distributed cognitive work and computational effort of many contributors, our platform makes it effortless for LLM agents to tap into a library of powerful tools. Users gain access to a shared repository of capabilities, sparing them the need to reinvent the wheel.
+**Vision:** Rather than manually coding every conceivable action, we will build an open ecosystem where users upload their own tested, reliable, and easily discoverable actions. By pooling the distributed cognitive work and computational effort of many contributors, our platform makes it effortless for LLM agents to tap into a library of powerful tools. Users gain access to a shared repository of capabilities. Not meerly sparing them the need to reinvent the wheel, but opening up a agentic paradigm where an agent can effortlessly be endowed with a vast array of capabilities.
 
 The ultimate aspiration is for AI engineers to focus on the high-level logic and user experience of their agents, confident that a robust library of actions is there to support them. As a user, you spend less time painstakingly designing tools and more time innovating and refining your agent’s workflow.
 
 ## III. Architectural Overview
 
-Our architecture is designed for modularity, security, and scalability. Each component plays a unique role, ensuring seamless integration between contributors, the action library, and LLM agents that consume these actions.
+Our architecture is designed for security, accessibility, and scalability. Each component plays a unique role, ensuring seamless configurable integration between contributors, the action library, and LLM agents that utilize these actions.
 
 ### A. Authentication & User Management
 
@@ -28,36 +30,35 @@ Authentication ensures trust and accountability. Users authenticate through a se
 
 The Client SDK is the linchpin that streamlines interaction with the entire platform. It allows users to:
 
-- **Upload Actions:** Users submit actions—either generated by their LLM or manually written—directly through the SDK. The SDK provides a layer of quality assurance, prompting tests, validations, and metadata capture before actions ever reach the backend.
-  
-- **Retrieve Actions:** With fine-grained filters and semantic search powered by advanced indexing, users and agents can easily find relevant actions. The SDK simplifies retrieval, ensuring users do not need to understand the underlying schema or indexing methods.
+- **Upload Actions:** Users submit actions—either generated by their LLM or manually written—directly through the SDK. The upload process consists of the following key features:
 
-- **Feedback and Iteration:** Users can report on the usefulness and reliability of actions. Over time, this feedback loop refines the ecosystem, surfacing the best solutions while weeding out less effective ones.
+  - The python code representing the action.
+  - JSON Schema defining an action, ensuring LLM compatibility.
+  - For quality assurance a relevant and rigorous unit test is required.
+  - Additional metadata is captured for attribution and retrieval.
 
-- **Economy of Contributions:** To ensure fairness, the SDK integrates into a system of “give and take.” Contribute actions, gain the ability to retrieve actions at scale, and enjoy the fruits of a rich community-driven repository.
+- **Retrieve Actions:** On top of fine-grained filters, users and agents can easily find relevant actions. The SDK simplifies retrieval, ensuring users do not need to understand the underlying schema or indexing methods.
+
+- **Feedback and Iteration:** Users passively report on the usefulness and reliability of actions. Over time, this feedback loop refines the ecosystem, surfacing the best solutions while weeding out less effective ones.
 
 ### C. Backend Services
 
 The backend orchestrates business logic, ensuring that every action, query, and feedback loop adheres to our policies. It:
 
-- **Manages Action Lifecycle:** Newly submitted actions pass through automated tests, scanning, and verification. Once validated, they join the main repository.
-  
+- **Manages Action Lifecycle:** Newly submitted actions pass through automated tests, scanning, and verification. Once validated, they are uploaded into the active database.
 - **Integrates With Tests and Policies:** Automatic checks ensure no malicious code slips through. Policies are enforced seamlessly, so the user’s workflow remains uninterrupted.
-  
 - **Handles Load and Scalability:** With growing adoption, the backend is built to scale. Whether you are a single engineer testing your first contribution or a large team relying on the ecosystem at scale, performance remains smooth.
 
 ### D. Vector Database and Storage Layer
 
-All actions are stored in a vector database, enabling semantic similarity search and efficient retrieval. As the database grows, the LLM agent’s ability to find just the right action in a vast library remains quick and intuitive. This ensures that as new contributions flood in, the quality of results and retrieval speed remains consistent and reliable.
+All actions are stored in a vector database, facilitating both semantic and traditional methods for retrieval. As the database grows, the LLM agent’s ability to find just the right action in a vast library remains quick and intuitive. This ensures that as new contributions flood in, the quality of results and retrieval speed remains consistent and reliable.
 
 ## IV. Security and Governance
 
 Dynamic action generation and sharing raise security concerns, which we address proactively:
 
 - **Authentication and Access Controls:** Strict user authentication via API keys lets us quickly respond to bad actors, removing or banning malicious users.
-  
 - **Automatic Policy Enforcement:** Both the client SDK and the backend run validations, ensuring no dangerous or malicious actions enter the system.
-  
 - **User-Level Filters:** Users can apply granular filters, retrieving only actions that align with their security, ethical, or domain-specific constraints.
 
 Our governance approach balances openness with responsibility, ensuring that while the action space is unbounded, it remains safe and productive.
@@ -66,8 +67,6 @@ Our governance approach balances openness with responsibility, ensuring that whi
 
 A thriving, community-driven ecosystem needs the right incentives. Here, we create a balanced “economy” of contributions:
 
-- **Contribution Credits:** Each action contributed earns “credits” that can be “spent” on retrieving actions. This encourages users to upload valuable actions, maintaining a fair exchange of effort.
-  
 - **Obfuscation for Fairness:** The system abstracts away whether an action comes from the user’s own set or the community. By blending sources, we promote mutual benefit, building trust that everyone is contributing for the common good.
 
 - **Emergent Standards:** Over time, best practices and coding styles emerge organically. With the SDK guiding uploads and ensuring non-malicious code, users focus on producing high-quality, reusable actions that benefit the entire ecosystem.
@@ -77,17 +76,14 @@ A thriving, community-driven ecosystem needs the right incentives. Here, we crea
 Looking ahead, we envision:
 
 - **Automated Generalization:** Future iterations of the SDK and backend may assist in generalizing overly specific actions or merging similar ones, expanding utility and reducing duplication.
-  
-- **Seamless Integrations:** We plan to integrate with popular AI toolkits, such as the OpenAI ecosystem, making it easy for users to plug into this platform no matter their preferred tooling.
-  
+- **Seamless Integrations:** We plan to integrate with popular AI toolkits, such as the increasingly accepted OpenAI SDK, making it easy for users to plug into this platform no matter their preferred tooling.
 - **Continuous Improvement:** Over time, the community and system co-evolve. As more actions pour in and more users participate, LLM agents become increasingly capable, creating a powerful feedback loop of innovation and problem-solving capacity.
+- **Economy of Contributions and Credits:** We propose a balanced “give and take” model as the cornerstone of a thriving action ecosystem. Contributing high-quality actions earns users “credits,” which can then be spent to retrieve more actions. This fair exchange encourages a sustained flow of valuable contributions from the community, ensuring that all participants—both new and experienced—benefit from an ever-expanding library of capabilities.
 
-## VII. Conclusion and Call to Action
+## VII. Conclusion
 
 We stand at the frontier of LLM-enabled autonomy. By transcending a fixed, predefined set of actions and embracing a dynamic, community-powered action repository, we empower AI engineers to scale their agents to new heights. Instead of painstakingly building and maintaining tools yourself, you tap into a collective intelligence—an ecosystem that continuously evolves and refines itself.
 
-**Your Invitation:** Join the conversation, contribute your own actions, and leverage those contributed by others. Help shape this dynamic, secure, and open-source community. The more we build together, the more versatile, reliable, and unstoppable our LLM agents will become.
+**Your Invitation:** We invite you to explore, contribute, and refine this evolving ecosystem. By sharing your actions and leveraging those of the community, you help shape a robust, secure, and open-source platform. As we collectively expand the action repository and strengthen its foundations, we enable LLM agents to become more adaptable, efficient, and capable than ever before.
 
-Let’s rally around this vision and make the future of AI agents a reality. You bring the creativity; the platform takes care of the rest.
-
----
+This is an opportunity to work together in driving the next evolution of AI agents. Your expertise, insights, and input are valued—join us, and help build a future where AI tools are seamlessly integrated, always improving, and accessible to all.
