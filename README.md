@@ -2,7 +2,7 @@ Inspired by [DynaSaur: Large Language Agents Beyond Predefined Actions](https://
 
 Written by Sebastian Sosa in collaboration with [ChatGPT](https://chatgpt.com/share/675d01d9-82d4-8011-baf8-056340780afe) 
 
-# Action Collective Manifesto: Empowering LLM Agents with Dynamic, Extensible Actions
+# Action Collective Manifesto: Community Driven Action Collection for Agentic Use
 
 ## I. Introduction and Motivation
 
