@@ -1,0 +1,57 @@
+version: '3.4'
+services:
+  weaviate:
+    image: cr.weaviate.io/semitechnologies/weaviate:1.26.6
+    command:
+      - --host
+      - ${WEAVIATE_HOST:-0.0.0.0}
+      - --port
+      - '${WEAVIATE_PORT:-8080}'
+      - --scheme
+      - ${WEAVIATE_SCHEME:-http}
+    environment:
+      - QUERY_DEFAULTS_LIMIT=${QUERY_DEFAULTS_LIMIT:-25}
+      - AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED=${AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED:-true}
+      - PERSISTENCE_DATA_PATH=${PERSISTENCE_DATA_PATH:-/var/lib/weaviate}
+      - DEFAULT_VECTORIZER_MODULE=${DEFAULT_VECTORIZER_MODULE:-none}
+      - ENABLE_API_BASED_MODULES=${ENABLE_API_BASED_MODULES:-true}
+      - CLUSTER_HOSTNAME=${CLUSTER_HOSTNAME:-node1}
+      - ENABLE_MODULES=${ENABLE_MODULES:-text2vec-voyageai}
+    ports:
+      - "${WEAVIATE_PORT:-8080}:${WEAVIATE_PORT:-8080}"
+      - "${WEAVIATE_GRPC_PORT:-50051}:${WEAVIATE_GRPC_PORT:-50051}"
+    volumes:
+      - weaviate_data:${PERSISTENCE_DATA_PATH:-/var/lib/weaviate}
+    networks:
+      - action_collective
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:${WEAVIATE_PORT:-8080}/v1/.well-known/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    environment:
+      - WEAVIATE_HOST=${WEAVIATE_HOST:-weaviate}
+      - WEAVIATE_PORT=${WEAVIATE_PORT:-8080}
+      - WEAVIATE_SCHEME=${WEAVIATE_SCHEME:-http}
+      - VOYAGEAI_API_KEY=${VOYAGEAI_API_KEY}
+      - BACKEND_HOST=${BACKEND_HOST:-0.0.0.0}
+      - BACKEND_PORT=${BACKEND_PORT:-8000}
+    ports:
+      - "${BACKEND_PORT:-8000}:${BACKEND_PORT:-8000}"
+    depends_on:
+      - weaviate
+    networks:
+      - action_collective
+
+networks:
+  action_collective:
+    driver: bridge
+
+volumes:
+  weaviate_data:
+    driver: local 

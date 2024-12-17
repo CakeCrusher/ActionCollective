@@ -51,3 +51,8 @@ async def retrieve_actions(request: RetrievalRequest) -> List[ActionData]:
 async def delete_collection():
     client.delete_collection("actions")
     return True
+
+@app.get("/health")
+async def health_check():
+    return True
+
