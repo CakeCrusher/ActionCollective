@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+
 async def main():
     """Test matrix multiplication action"""
     client = ActionClient(
@@ -27,19 +28,21 @@ async def main():
 
     result = await client.execute(prompt)
     print("\n\nresult:\n", result, "\n\n")
-    # matrix = [
-    #     [215, 230, 227, 260, 275],
-    #     [479, 518, 515, 596, 635],
-    #     [765, 830, 817, 960, 1025],
-    #     [919, 998, 1035, 1156, 1235],
-    #     [1315, 1430, 1407, 1660, 1775],
-    # ]
-    # # validate that each of the number inside matrix exist in the result string
-    # for row in matrix:
-    #     for number in row:
-    #         assert str(number) in result
-    # assert result is not None
-    # assert isinstance(result, str)
+    matrix = [
+        [215, 230, 227, 260, 275],
+        [479, 518, 515, 596, 635],
+        [765, 830, 817, 960, 1025],
+        [919, 998, 1035, 1156, 1235],
+        [1315, 1430, 1407, 1660, 1775],
+    ]
+    # validate that each of the number inside matrix exist in the result string
+    for row in matrix:
+        for number in row:
+            assert str(number) in result
+    assert result is not None
+    assert isinstance(result, str)
+    print("\n\nPASSED\n\n")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

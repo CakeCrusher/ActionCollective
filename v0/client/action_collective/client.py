@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Any
 from .services.llm import LLMService
 from .services.backend import BackendService
 from .models.actions import ActionData, ActionExecutionPayload
@@ -45,10 +45,79 @@ class ActionClient:
         except Exception as e:
             raise Exception(f"Failed to validate schema: {e}")
 
-    async def execute(self, prompt: str, max_retries: int = 3) -> str:
-        """
-        Main entry point for executing actions based on a prompt
-        """
+    async def build_action_execution_payload(
+        self, action_data: ActionData
+    ) -> ActionExecutionPayload:
+        """Build execution payload with parameters from chat history"""
+        if self.verbose:
+            print("\n\nChat History Pre Params:\n", self.chat_history)
+
+        action_params = self.llm.client.beta.chat.completions.parse(
+            model="gpt-4o-mini",
+            messages=self.chat_history[:-1],  # Exclude the last assistant message
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "action_items",
+                    "description": "The action items to be completed",
+                    "strict": True,
+                    "schema": json.loads(action_data.input_json_schema),
+                },
+            },
+        )
+
+        if not action_params.choices[0].message.content:
+            raise Exception("Failed to get action params")
+
+        params = json.loads(action_params.choices[0].message.content)
+
+        if self.verbose:
+            print("\n\nparams:\n", params)
+
+        return ActionExecutionPayload(action_data=action_data, params=params)
+
+    async def execute_action(
+        self, action_execution_payload: ActionExecutionPayload
+    ) -> Any:
+        """Execute the action with the provided payload"""
+        action_data = action_execution_payload.action_data
+        params = action_execution_payload.params
+
+        # Create a namespace for execution
+        namespace = {}
+
+        # Execute the action code to define the function in our namespace
+        exec(action_data.code, namespace)
+
+        # Execute the action function with unpacked parameters
+        result = namespace["action"](**params)
+
+        self.internal_chat_history.append(
+            {"role": "assistant", "content": f"RESULT FROM ACTION: {result}"}
+        )
+
+        return result
+
+    async def summarize_execution(self) -> str:
+        """Summarize the execution result"""
+        self.internal_chat_history.append(
+            {"role": "assistant", "content": f"Now I will summarize the result..."}
+        )
+
+        summary_response = self.llm.client.beta.chat.completions.parse(
+            model="gpt-4o-mini",
+            messages=self.chat_history + self.internal_chat_history,
+        )
+
+        summary = summary_response.choices[0].message.content
+        self.internal_chat_history.append({"role": "assistant", "content": summary})
+
+        return summary
+
+    async def retrieve_or_generate(
+        self, prompt: str, max_retries: int = 3
+    ) -> ActionData:
+        """Retrieve an existing action or generate a new one"""
         # Add user message to chat history
         self.chat_history.append({"role": "user", "content": prompt})
 
@@ -56,7 +125,7 @@ class ActionClient:
         action_thought = await self.llm.get_action_thought(self.chat_history)
 
         if not action_thought.is_action_needed:
-            return action_thought.thought
+            raise Exception("No action needed")
 
         # Record the thought process
         self.chat_history.append(
@@ -148,6 +217,16 @@ Make sure to maintain a simple JSON Schema as in the example.""",
             if retries >= max_retries:
                 raise Exception("Failed to create valid action after maximum retries")
 
+        if not action:
+            raise Exception("Failed to create valid action")
         # Execute action and return results
         # TODO: Implement action execution
-        return f"Action executed: {action.code[:100]}..."
+        return action
+
+    async def execute(self, prompt: str, max_retries: int = 3) -> str:
+        """Full execution pipeline"""
+        action_data = await self.retrieve_or_generate(prompt, max_retries)
+        execution_payload = await self.build_action_execution_payload(action_data)
+        await self.execute_action(execution_payload)
+        summary = await self.summarize_execution()
+        return summary
