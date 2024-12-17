@@ -55,3 +55,6 @@ logs/
 
 # Weaviate data
 weaviate-data/ 
+
+# Poetry
+poetry.lock
