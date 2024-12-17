@@ -2,6 +2,8 @@ Inspired by [DynaSaur: Large Language Agents Beyond Predefined Actions](https://
 
 Written by Sebastian Sosa in collaboration with [ChatGPT](https://chatgpt.com/share/675d01d9-82d4-8011-baf8-056340780afe) 
 
+Presenting @ [Latent Space Discord](https://discord.gg/vGERHJVC) Paper Club 12/18
+
 # Action Collective Manifesto: Community Driven Actions Database
 
 ## I. Introduction and Motivation
