@@ -20,4 +20,6 @@ class ActionDataWeaviateScored(ActionDataWeaviate):
 
 class RetrievalRequest(BaseModel):
     chat_history: List[Dict[str, str]]
+    threshold: float = 0.9
     top_k: int = 5
+
