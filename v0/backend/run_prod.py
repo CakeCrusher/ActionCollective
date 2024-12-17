@@ -16,10 +16,10 @@ PORT = int(os.getenv("BACKEND_PORT", "8000"))
 
 if __name__ == "__main__":
     # Wait for other services (like Weaviate) to be ready
-    print("Waiting 3 seconds for services to be ready...")
-    time.sleep(3)
+    print("Waiting 5 seconds for services to be ready...")
+    time.sleep(5)
 
     print(f"Starting backend server on {HOST}:{PORT}")
     uvicorn.run(
-        "main:app", host=HOST, port=PORT, reload=True
+        "main:app", host=HOST, port=PORT, reload=False  # Disable reload in production
     )
