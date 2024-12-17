@@ -272,11 +272,11 @@ Make sure to maintain a simple JSON Schema as in the example.""",
         self.action_thought = None
 
     async def execute(
-        self, chat_history: List[Dict[str, str]], max_retries: int = 3
+        self, chat_history: Optional[List[Dict[str, str]]] = None, max_retries: int = 3
     ) -> List[Dict[str, str]]:
         """Full execution pipeline"""
-        self.clear()
-        self.chat_history = chat_history
+        if chat_history:
+            self.chat_history = chat_history
 
         await self.retrieve_or_generate(max_retries=max_retries)
         await self.build_action_execution_payload()
