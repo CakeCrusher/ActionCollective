@@ -67,9 +67,6 @@ class ActionClient:
                 )
             action_thought = self.action_thought
 
-        if not action_thought.is_action_needed:
-            raise Exception("No action needed")
-
         # Record the thought process
         self.internal_chat_history.append(
             {

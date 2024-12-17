@@ -3,14 +3,11 @@ from typing import Optional, Dict, Any, List
 
 
 class ActionCollectiveRequest(BaseModel):
-    """Discover and execute actions to solve a task that may require computation or retrieval of information"""
+    """Discover actions when an action or tool is needed but no provided action is sufficient."""
 
     thought: str = Field(
         ...,
         description="Thoughts about the task that needs to be solved and how to resolve it.",
-    )
-    is_action_needed: bool = Field(
-        ..., description="Whether an action is needed to resolve the task."
     )
     tool_description: str = Field(
         ..., description="Description of the tool that can be used to resolve the task."
