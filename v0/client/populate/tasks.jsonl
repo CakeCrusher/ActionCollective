@@ -1,0 +1,374 @@
+{"description":"Navigate to arxiv.org and find the Advanced Search page.","independent":true,"self_contained":true,"id":"527239"}
+{"description":"Search for 'AI regulation' in the Advanced Search and filter by submission date from 2022-06-01 to 2022-07-01.","independent":true,"self_contained":true,"id":"231092"}
+{"description":"Identify the article titled 'Fairness in Agreement With European Values: An Interdisciplinary Perspective on AI Regulation' which has a figure with three axes and appropriately labeled axes.","independent":true,"self_contained":true,"id":"650502"}
+{"description":"List the labels from the figure in the identified article: deontological, egalitarian, localized, standardized, utilitarian, and consequential.","independent":true,"self_contained":true,"id":"289208"}
+{"description":"Visit the 'Physics and Society' category page on arxiv.org and note its tag: 'physics.soc-ph'.","independent":true,"self_contained":true,"id":"683794"}
+{"description":"Perform an Advanced Search for the tag 'physics.soc-ph' with submission dates from 2016-08-11 to 2016-08-12.","independent":true,"self_contained":true,"id":"394318"}
+{"description":"Search through the results for instances of the six words and identify the paper titled 'Phase transition from egalitarian to hierarchical societies driven by competition between cognitive and social constraints'.","independent":true,"self_contained":true,"id":"125942"}
+{"description":"Search the web for \"finding nemo main character\"","independent":true,"self_contained":false,"id":"888061"}
+{"description":"Note the results, which state that the main character is a clownfish.","independent":true,"self_contained":true,"id":"193548"}
+{"description":"Search the web for \"usgs nonnative species database\"","independent":true,"self_contained":false,"id":"380477"}
+{"description":"Click result for the Nonindigenous Aquatic Species site.","independent":true,"self_contained":true,"id":"54331"}
+{"description":"Click \"Marine Fishes\" on the website.","independent":true,"self_contained":true,"id":"733235"}
+{"description":"Click \"Species List of Nonindigenous Marine Fish\" on the Marine Fishes page.","independent":true,"self_contained":true,"id":"920964"}
+{"description":"Scroll through the list until I find the clown anemonefish, and click \"Collection info\".","independent":true,"self_contained":true,"id":"324037"}
+{"description":"Note the place where a clown anemonefish was found, in Fred Howard Park at the Gulf of Mexico.","independent":true,"self_contained":true,"id":"898191"}
+{"description":"Search the web for \"fred howard park florida zip code\".","independent":true,"self_contained":false,"id":"60539"}
+{"description":"Note the zip code, 34689, related to Fred Howard Park.","independent":true,"self_contained":true,"id":"264943"}
+{"description":"Conclude that since only one clownfish was found before the year 2020, this is the final answer.","independent":true,"self_contained":true,"id":"127489"}
+{"description":"Google the phrase 'articles submitted to Nature 2020' to find how many articles were published in Nature in 2020.","independent":true,"self_contained":false,"id":"888101"}
+{"description":"Visit Nature's archive for the year 2020 and filter the results to find the number of articles published, ensuring to exclude other types of publications. Record the total number of articles found: 1002.","independent":true,"self_contained":false,"id":"125762"}
+{"description":"Calculate 4% of 1002 and round up. The calculation is 1002 * 0.04 = 40.08, which rounds to 41.","independent":true,"self_contained":true,"id":"601012"}
+{"description":"Searched 'Unlambda syntax' online and opened the Wikipedia page.","independent":true,"self_contained":true,"id":"659020"}
+{"description":"Identified that the hello world program in Unlambda has a similar syntax to the code in this task.","independent":true,"self_contained":true,"id":"402275"}
+{"description":"Navigated to the source referenced by the Unlambda hello world program to better understand it.","independent":true,"self_contained":true,"id":"35139"}
+{"description":"Read through the components of the hello world program from the source to learn about the function of each period and the necessity of the backticks.","independent":true,"self_contained":true,"id":"368032"}
+{"description":"Counted the number of periods and backticks in the provided code to confirm the missing character at the end.","independent":true,"self_contained":true,"id":"954396"}
+{"description":"Identified that there are 12 periods and concluded that 11 backticks indicates the specific missing character is a backtick.","independent":true,"self_contained":true,"id":"628606"}
+{"description":"Convert the marathon pace from minutes/seconds per mile to fractional hours.","independent":false,"self_contained":true,"id":"994530"}
+{"description":"Convert the periapsis of the moon from miles to a distance in relation to the marathon pace.","independent":false,"self_contained":true,"id":"305477"}
+{"description":"Multiply the marathon pace (in fractional hours) by the distance of the moon periapsis to find the total time in hours.","independent":false,"self_contained":true,"id":"424775"}
+{"description":"Round the total time calculated to the nearest 100 hours.","independent":true,"self_contained":true,"id":"324187"}
+{"description":"Open the specified file to access the Blu-Ray information.","independent":true,"self_contained":true,"id":"397832"}
+{"description":"Search through the Blu-Ray section to identify the years and determine the earliest year listed.","independent":true,"self_contained":true,"id":"244074"}
+{"description":"Locate the Blu-Ray title that matches the year 2009, which is 'Time-Parking 2: Parallel Universe'.","independent":true,"self_contained":true,"id":"772746"}
+{"description":"Conduct a search for Mercedes Sosa on the internet.","independent":true,"self_contained":true,"id":"374838"}
+{"description":"Navigate to the Wikipedia page for Mercedes Sosa.","independent":true,"self_contained":true,"id":"808019"}
+{"description":"Scroll down to find the section titled 'Studio albums' on her Wikipedia page.","independent":true,"self_contained":true,"id":"711476"}
+{"description":"Count the number of studio albums released by Mercedes Sosa between the years 2000 and 2009.","independent":true,"self_contained":true,"id":"114342"}
+{"description":"Search for 'British Museum search collection' and navigate to their collection search webpage.","independent":true,"self_contained":true,"id":"562077"}
+{"description":"Select 'Museum number' as search field and input '2012,5015.17' to run the search.","independent":true,"self_contained":true,"id":"87986"}
+{"description":"Open the single result page and note that it describes the shell of an individual of the Nassa gibbosula species.","independent":true,"self_contained":true,"id":"707629"}
+{"description":"Search for 'Nassa gibbosula' using a search engine.","independent":true,"self_contained":true,"id":"792379"}
+{"description":"Find that according to the World Register of Marine Species, Nassa gibbosula is not an accepted species name.","independent":true,"self_contained":true,"id":"970491"}
+{"description":"Open the page for Nassa gibbosula on the World Register of Marine Species website and note the accepted species name is Tritia gibbosula.","independent":true,"self_contained":true,"id":"127422"}
+{"description":"Search for 'Science Advances 2021 Tritia gibbosula'.","independent":true,"self_contained":true,"id":"676941"}
+{"description":"Locate the article titled 'Early Middle Stone Age personal ornaments from Bizmoune Cave, Essaouira, Morocco' in Science Advances from 2021.","independent":true,"self_contained":true,"id":"599085"}
+{"description":"Scan the abstract of the article and note that it discusses beads made from Tritia gibbosula shells dating to at least 142 thousand years ago, providing a final answer of 142.","independent":true,"self_contained":true,"id":"374512"}
+{"description":"Search for 'numpy github' on Google search.","independent":true,"self_contained":true,"id":"834245"}
+{"description":"Open the NumPy GitHub page.","independent":true,"self_contained":true,"id":"425534"}
+{"description":"Click 'Issues' in the NumPy GitHub repository tabs.","independent":true,"self_contained":true,"id":"308963"}
+{"description":"Click on 'Closed' in the filter bar of the Issues page.","independent":true,"self_contained":true,"id":"762459"}
+{"description":"Set the filter to 'numpy.polynomial' label.","independent":true,"self_contained":true,"id":"169867"}
+{"description":"Set the filter to '06 - Regression' label.","independent":true,"self_contained":true,"id":"897596"}
+{"description":"Open the oldest Regression post from the filtered issues.","independent":true,"self_contained":true,"id":"178442"}
+{"description":"Scroll down in the issue to find when the Regression label was added.","independent":true,"self_contained":true,"id":"262860"}
+{"description":"Convert the date found (Apr 15, 2018) to MM/DD/YY format.","independent":true,"self_contained":true,"id":"993562"}
+{"description":"Evaluate the problem statement and determine the probability of each ball earning a prize based on its position.","independent":true,"self_contained":true,"id":"693602"}
+{"description":"Calculate the probability P1 for ball in position one.","independent":true,"self_contained":true,"id":"699311"}
+{"description":"Calculate the probability P2 for ball in position two as P2 = 1 - (2/3)(2/3) and determine its value.","independent":true,"self_contained":true,"id":"761502"}
+{"description":"Calculate the probability P3 for ball in position three as P3 = 1 - (2/3)(2/3)(2/3) and determine its value.","independent":true,"self_contained":true,"id":"968974"}
+{"description":"Evaluate the possible outcomes and strategies for selecting balls based on their positions and associated probabilities.","independent":true,"self_contained":true,"id":"32244"}
+{"description":"Determine which ball to select based on calculated probabilities and known positions, ultimately selecting ball 3.","independent":true,"self_contained":true,"id":"451117"}
+{"description":"Found and verified updated U.S. Grade Standards for each dehydrated product listed in the 1959 document.","independent":true,"self_contained":true,"id":"260327"}
+{"description":"Calculated the percentage of dehydrated items that have updated standards based on a running tally.","independent":true,"self_contained":true,"id":"192492"}
+{"description":"Rounded the calculated percentage to the nearest whole number for reporting purposes.","independent":true,"self_contained":true,"id":"128724"}
+{"description":"Search the web for 'PDB ID 5wb7' and locate the relevant link.","independent":true,"self_contained":true,"id":"797390"}
+{"description":"Navigate to the URL https://www.rcsb.org/structure/5wb7 and access the protein structure data.","independent":true,"self_contained":true,"id":"545703"}
+{"description":"Download the PDB file for 5wb7 from the RCSB website.","independent":true,"self_contained":true,"id":"271084"}
+{"description":"Use Python and Biopython to calculate the distance between the first two atoms in the PDB file of 5wb7, using the provided code snippet.","independent":true,"self_contained":false,"id":"782879"}
+{"description":"Round the calculated distance (1.4564234018325806 Å) to the nearest picometer (1.456).","independent":true,"self_contained":true,"id":"782311"}
+{"description":"Search for the meaning or significance of the phrase 'Pearl of Africa'.","independent":true,"self_contained":true,"id":"941537"}
+{"description":"Access the paper titled 'Effects of Sweet Potato Feathery Mottle Virus and ...' and review the virus testing section to understand its content.","independent":true,"self_contained":true,"id":"268929"}
+{"description":"Research commonly used chemicals in ELISA (Enzyme-Linked Immunosorbent Assay) procedures.","independent":true,"self_contained":true,"id":"808584"}
+{"description":"Look up the Enzyme Commission (EC) number for horseradish peroxidase.","independent":true,"self_contained":true,"id":"556771"}
+{"description":"Look up the Enzyme Commission (EC) number for alkaline phosphatase.","independent":true,"self_contained":true,"id":"894153"}
+{"description":"Create a list of the chemicals identified (horseradish peroxidase and alkaline phosphatase) and sort them alphabetically.","independent":false,"self_contained":true,"id":"995283"}
+{"description":"Assign the numbered order to the chemicals based on the alphabetical list created.","independent":false,"self_contained":true,"id":"211"}
+{"description":"Search the web for 'Book of Esther NIV'","independent":true,"self_contained":true,"id":"881441"}
+{"description":"Click search result to read the text of the first chapter of the Book of Esther","independent":true,"self_contained":false,"id":"441977"}
+{"description":"Note the first place named in the Book of Esther, which is India","independent":true,"self_contained":true,"id":"950649"}
+{"description":"Search the web for 'prime ministers of India list'","independent":true,"self_contained":true,"id":"132166"}
+{"description":"Click on the Wikipedia result for prime ministers of India","independent":true,"self_contained":false,"id":"285694"}
+{"description":"Scroll down to find the prime minister during the specified timeframe, Morarji Desai","independent":true,"self_contained":false,"id":"731694"}
+{"description":"Search for 'ben and jerrys flavor graveyard' on Google.","independent":true,"self_contained":true,"id":"27894"}
+{"description":"Visit www.benjerry.com and navigate to the Flavor Graveyard.","independent":true,"self_contained":true,"id":"377315"}
+{"description":"Open each flavor listed in the Flavor Graveyard to find the oldest one (Dastardly Mash).","independent":true,"self_contained":true,"id":"887358"}
+{"description":"Read the headstone behind the Dastardly Mash flavor to decipher the blurry name (Miz Jelena's Sweet Potato Pie).","independent":true,"self_contained":true,"id":"589859"}
+{"description":"Scroll down to find Miz Jelena's Sweet Potato Pie in the Flavor Graveyard.","independent":true,"self_contained":true,"id":"853359"}
+{"description":"Copy the last line of the rhyme associated with Miz Jelena's Sweet Potato Pie.","independent":true,"self_contained":true,"id":"95369"}
+{"description":"(Optional) Copy the URL of Miz Jelena's Sweet Potato Pie page.","independent":true,"self_contained":true,"id":"870643"}
+{"description":"Search for 'internet archive' on Google to access the Wayback Machine.","independent":true,"self_contained":true,"id":"400010"}
+{"description":"Open the Wayback Machine from the Internet Archive website.","independent":true,"self_contained":true,"id":"245013"}
+{"description":"Enter the copied URL into the Wayback Machine to check archived data.","independent":true,"self_contained":true,"id":"907472"}
+{"description":"Load the last archived page from 2022 and check if the information matches the current page.","independent":true,"self_contained":true,"id":"593190"}
+{"description":"Search for 'LibreText density mayonnaise'","independent":true,"self_contained":false,"id":"827601"}
+{"description":"Click on the search result and confirm the correct license for the content about mayonnaise density.","independent":false,"self_contained":false,"id":"42511"}
+{"description":"Search for 'cm^3 to 1 cup' conversion","independent":true,"self_contained":false,"id":"780487"}
+{"description":"Calculate (16*236.588)(1.420 - 0.910)/(236.588*1.420) using density measures found from mayonnaise and conversion from cm^3 to 1 cup","independent":false,"self_contained":false,"id":"368744"}
+{"description":"Round the result of the previous calculation up to the nearest whole number.","independent":false,"self_contained":true,"id":"138115"}
+{"description":"Analyze the calculations for the volume of the fish bag to determine if Hiccup can maintain a dragon's diet based on the findings.","independent":true,"self_contained":true,"id":"993295"}
+{"description":"Write a summary of the article 'Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?' highlighting the main points and conclusions drawn from the calculations.","independent":true,"self_contained":true,"id":"971551"}
+{"description":"Create a presentation explaining how the the volume of the fish bag affects Hiccup’s ability to feed a dragon, using data from the article.","independent":true,"self_contained":true,"id":"305061"}
+{"description":"Develop a plan for conducting an experiment or simulation to test if Hiccup's fish supply meets the dietary needs of various dragon species.","independent":true,"self_contained":true,"id":"177253"}
+{"description":"Open the JSONLD file and extract ORCID IDs for analysis.","independent":true,"self_contained":false,"id":"267917"}
+{"description":"Access each individual ORCID ID to gather the number of works authored before 2022.","independent":true,"self_contained":true,"id":"509138"}
+{"description":"Count the number of works from each ORCID ID that were published before 2022.","independent":true,"self_contained":true,"id":"340576"}
+{"description":"Calculate the average number of pre-2022 works from the collected counts.","independent":true,"self_contained":true,"id":"351188"}
+{"description":"Navigate to a specified YouTube link, watch the video to find out the highest number of bird species mentioned, and note that number down.","independent":true,"self_contained":false,"id":"5365"}
+{"description":"Search for the article titled \"Pie Menus or Linear Menus, Which Is Better?\" on Google and open it.","independent":true,"self_contained":true,"id":"533042"}
+{"description":"Click on each author's name listed in the paper and note the one who has no other papers listed.","independent":false,"self_contained":false,"id":"851272"}
+{"description":"Search for Pietro Murano on Google to find his personal website.","independent":false,"self_contained":false,"id":"535199"}
+{"description":"Open Pietro Murano's website and click on the \"Publications\" section to view his papers.","independent":false,"self_contained":false,"id":"44098"}
+{"description":"Determine the earliest paper he contributed to from the list of publications.","independent":false,"self_contained":false,"id":"472375"}
+{"description":"Extract data from a PNG file for analysis.","independent":true,"self_contained":false,"id":"134589"}
+{"description":"Compile a list of statistics for red and green numbers separately.","independent":true,"self_contained":true,"id":"211710"}
+{"description":"Calculate the population standard deviation of the red numbers in Python.","independent":true,"self_contained":true,"id":"657012"}
+{"description":"Calculate the sample standard deviation of the green numbers in Python.","independent":true,"self_contained":true,"id":"244699"}
+{"description":"Calculate the average of the population and sample standard deviations calculated.","independent":true,"self_contained":true,"id":"550927"}
+{"description":"Round the average calculated from the standard deviations.","independent":true,"self_contained":true,"id":"162923"}
+{"description":"Search for 'The Thinking Machine (Artificial Intelligence in the 1960s)' on YouTube and open the result.","independent":true,"self_contained":true,"id":"358930"}
+{"description":"Listen to the entire YouTube video of 'The Thinking Machine (Artificial Intelligence in the 1960s)'.","independent":true,"self_contained":true,"id":"997639"}
+{"description":"Search for a transcript of the video 'The Thinking Machine (Artificial Intelligence in the 1960s)'.","independent":true,"self_contained":true,"id":"130752"}
+{"description":"Confirm findings about Claude Shannon predicting AI within 5-10 years from the video's content by watching the video again.","independent":true,"self_contained":true,"id":"100535"}
+{"description":"Search for the official script of \"Doctor Who series 9 episode 11\" on the web.","independent":true,"self_contained":true,"id":"109418"}
+{"description":"Locate and click on the link for the script on the BBC website.","independent":true,"self_contained":true,"id":"9443"}
+{"description":"Read through the PDF of the script, particularly noting the setting in a mechanical castle.","independent":true,"self_contained":true,"id":"281815"}
+{"description":"Find the first scene heading in the script to confirm the location is 'THE CASTLE'.","independent":true,"self_contained":true,"id":"283687"}
+{"description":"Search for \"ASEAN bloc\" on the web.","independent":true,"self_contained":true,"id":"387742"}
+{"description":"Click on the Wikipedia result for the ASEAN Free Trade Area.","independent":true,"self_contained":true,"id":"155999"}
+{"description":"Scroll down the Wikipedia page to find the list of ASEAN member states.","independent":true,"self_contained":true,"id":"346715"}
+{"description":"Click into the Wikipedia pages for each member state to note its capital.","independent":false,"self_contained":true,"id":"807823"}
+{"description":"Search the web for the distance between the first two capitals from the member states.","independent":false,"self_contained":true,"id":"634051"}
+{"description":"Search for images of the ASEAN bloc and find a map of the member countries.","independent":false,"self_contained":true,"id":"602147"}
+{"description":"View the map to observe the geographic layout of the member countries.","independent":false,"self_contained":true,"id":"170537"}
+{"description":"Return to the Wikipedia page for each country and click the GPS coordinates for each capital in decimal notation.","independent":false,"self_contained":true,"id":"723068"}
+{"description":"Place all the GPS coordinates into a spreadsheet.","independent":false,"self_contained":true,"id":"765075"}
+{"description":"Write formulas in the spreadsheet to calculate the distance between each capital.","independent":false,"self_contained":true,"id":"89409"}
+{"description":"Write a formula to get the largest distance value in the spreadsheet.","independent":false,"self_contained":true,"id":"519695"}
+{"description":"Note which two capitals correspond to the largest distance value.","independent":false,"self_contained":true,"id":"417318"}
+{"description":"Return to the Wikipedia pages for Jakarta and Naypyidaw to confirm their respective countries.","independent":false,"self_contained":true,"id":"143594"}
+{"description":"Research details of the PubChem Compound database and its features related to food additives.","independent":false,"self_contained":true,"id":"982777"}
+{"description":"Explore various enzyme transformations available in the PubChem database, focusing on CYP2B6 and CYP2E1.","independent":false,"self_contained":true,"id":"363574"}
+{"description":"Analyze the chemical co-occurrences for CYP2B6 and CYP2E1, identifying significant compounds.","independent":false,"self_contained":true,"id":"532200"}
+{"description":"Determine the heaviest compound among those co-occurring with the CYP2B6 and CYP2E1 enzymes.","independent":false,"self_contained":true,"id":"346795"}
+{"description":"Document the PubChem CID for Midazolam and summarize its pharmacological relevance.","independent":false,"self_contained":true,"id":"737014"}
+{"description":"Search the web for 'greetham uncoupled project muse'.","independent":true,"self_contained":true,"id":"409819"}
+{"description":"Click on the result that contains an article matching the given citation.","independent":true,"self_contained":true,"id":"813075"}
+{"description":"Use the Ctrl-F function to search for the term 'obscured' in the article.","independent":true,"self_contained":true,"id":"553012"}
+{"description":"Identify and extract the quote describing a 'veil of print' and not a cloak from the article.","independent":true,"self_contained":true,"id":"151940"}
+{"description":"Format the final answer, stating whether the quote is found or not, using 'No.' if it is not found.","independent":true,"self_contained":true,"id":"849736"}
+{"description":"Search for 'OpenCV change log' using a search engine.","independent":true,"self_contained":true,"id":"943682"}
+{"description":"Open the top result from GitHub regarding OpenCV change log and search for 'Mask-RCNN'.","independent":true,"self_contained":true,"id":"9134"}
+{"description":"Identify that support for the Mask-RCNN model was added in OpenCV version 4.0.0.","independent":true,"self_contained":true,"id":"473276"}
+{"description":"Expand the lists of contributors for OpenCV version 4.0.0.","independent":true,"self_contained":true,"id":"566362"}
+{"description":"Visit the Wikipedia page for 'head of government'.","independent":true,"self_contained":true,"id":"370157"}
+{"description":"Note that the head of government for China is the premier.","independent":true,"self_contained":true,"id":"690922"}
+{"description":"Go to the Wikipedia page for 'premier of the People's Republic of China'.","independent":true,"self_contained":true,"id":"588664"}
+{"description":"Navigate to the linked page for 'List of premiers of the People's Republic of China'.","independent":true,"self_contained":true,"id":"673632"}
+{"description":"Compare the names from the list of OpenCV version 4.0.0 contributors with the list of premiers of China to find common names, specifically check for 'Li Peng'.","independent":true,"self_contained":true,"id":"38527"}
+{"description":"Search for details and data about the shrimp species Hymenocera picta in academic papers.","independent":true,"self_contained":true,"id":"96473"}
+{"description":"Navigate academic databases to find specific shrimp-related research papers.","independent":true,"self_contained":true,"id":"614659"}
+{"description":"Calculate the percentage size of a sea star in relation to the total length of shrimp obtained from the paper.","independent":true,"self_contained":true,"id":"963069"}
+{"description":"Round numerical results to the nearest integer based on percentage calculations.","independent":true,"self_contained":true,"id":"224456"}
+{"description":"Open the document to review the available gifts and recipient interests.","independent":true,"self_contained":true,"id":"553238"}
+{"description":"Match the biography of Galileo Galilei to the most suitable recipient based on their interests in astronomy or books.","independent":true,"self_contained":true,"id":"36044"}
+{"description":"Match the fishing reel to Harry as it aligns with his interest in fishing.","independent":true,"self_contained":true,"id":"556641"}
+{"description":"Determine the most appropriate recipient for the Raku programming guide, which could fit both Perl and JavaScript language enthusiasts.","independent":true,"self_contained":true,"id":"236432"}
+{"description":"Assign the chisel set to Jun, as Harry is already matched with a gift while also considering interests in camping or woodworking.","independent":true,"self_contained":true,"id":"266788"}
+{"description":"Identify the recipients Lucy and Sara who could receive the custom dice based on their interests in board games or tabletop RPGs.","independent":true,"self_contained":true,"id":"248830"}
+{"description":"Match the American film copy of 'War and Peace' to either Perry or Alex, considering their interests in old movies or Audrey Hepburn.","independent":true,"self_contained":true,"id":"436906"}
+{"description":"Assign yarn to Micah because it is specifically for knitting, leading to the conclusion that the Galileo biography is for Miguel.","independent":true,"self_contained":true,"id":"242979"}
+{"description":"Match 'One Piece' graphic novel to Alex, considering Micah has already received yarn and that 'War and Peace' film is for Perry.","independent":true,"self_contained":true,"id":"129245"}
+{"description":"Identify the recipient for the 'War and Peace' novel, determining it is for Tyson since Micah has yarn.","independent":true,"self_contained":true,"id":"651884"}
+{"description":"Assign the Starbucks gift card to Lucy as it is specified for coffee, which implies dice should then go to Sara.","independent":true,"self_contained":true,"id":"414595"}
+{"description":"Match the foam exercise mat to Georgette since it is explicitly for yoga enthusiasts.","independent":true,"self_contained":true,"id":"100616"}
+{"description":"List all recipients who have been matched to gifts (Miguel, Harry, Fred, Jun, Sara, Perry, Micah, Alex, Tyson, Lucy, Georgette) and the one who has not (Rebecca).","independent":true,"self_contained":true,"id":"298739"}
+{"description":"Identify that Fred was supposed to give a gift to Rebecca, who is currently not matched with any gift.","independent":true,"self_contained":true,"id":"924311"}
+{"description":"Retrieve the maximum length of the Blacktip Reef Shark from the Monterey Bay Aquarium website.","independent":true,"self_contained":true,"id":"447129"}
+{"description":"Watch the National Geographic YouTube channel Shorts for more information about sharks.","independent":true,"self_contained":true,"id":"287674"}
+{"description":"Search for additional shark facts or information on blacktip reef sharks for a broader understanding.","independent":true,"self_contained":true,"id":"246268"}
+{"description":"Document the key characteristics of the blacktip reef shark including its habitat, behavior, and diet based on reliable sources.","independent":true,"self_contained":true,"id":"253329"}
+{"description":"Explore conservation efforts and threats to the blacktip reef shark species.","independent":true,"self_contained":true,"id":"193167"}
+{"description":"Identify the two words related to customer retention found in both the 'discrete time beta geometric model' and 'shifted-beta-geometric' references.","independent":true,"self_contained":true,"id":"486837"}
+{"description":"Search for 'alvei copenhagen' on Google and summarize the results.","independent":true,"self_contained":true,"id":"460017"}
+{"description":"Summarize the key points of the Wikipedia article on Hafnia (bacterium).","independent":true,"self_contained":true,"id":"824939"}
+{"description":"Conduct a Google search for 'Ilias Lagkouvardos hafnia alvei' and summarize findings from the context and results.","independent":true,"self_contained":true,"id":"581674"}
+{"description":"Review the paper from MDPI and outline its findings related to Hafnia alvei.","independent":true,"self_contained":true,"id":"841800"}
+{"description":"Conduct a Google search for 'Olga Tapia hafnia alvei' and summarize what you find.","independent":true,"self_contained":true,"id":"25054"}
+{"description":"Review the PubMed article associated with Olga Tapia and summarize its findings.","independent":true,"self_contained":true,"id":"624861"}
+{"description":"Create a list of all animals mentioned in the first paper you reviewed.","independent":true,"self_contained":true,"id":"652999"}
+{"description":"Search for each animal from the first paper within the context of the second paper and summarize any relevant findings.","independent":true,"self_contained":true,"id":"63053"}
+{"description":"Compile a list of animals mentioned in both papers but exclude those listed in the bibliographies.","independent":true,"self_contained":true,"id":"154474"}
+{"description":"Review and summarize the references in the Wikipedia article, focusing on the study about H. alvei HA4597® and its effects on weight loss.","independent":true,"self_contained":true,"id":"427696"}
+{"description":"Open and analyze the PDF of the mentioned study and extract animals shared across all three papers.","independent":true,"self_contained":true,"id":"195433"}
+{"description":"Search 'arxiv' on Google to locate the site.","independent":true,"self_contained":true,"id":"106377"}
+{"description":"Open the top result leading to https://arxiv.org/.","independent":true,"self_contained":true,"id":"428847"}
+{"description":"Navigate to the High Energy Physics - Lattice section on arXiv.","independent":true,"self_contained":true,"id":"803266"}
+{"description":"Set the filter date to January 2020 to view articles from that month.","independent":true,"self_contained":true,"id":"216041"}
+{"description":"Count the number of articles available in 'ps' format on each page displayed.","independent":true,"self_contained":true,"id":"482663"}
+{"description":"Sum the counts from each page to obtain the total number of 'ps' format articles.","independent":true,"self_contained":true,"id":"497950"}
+{"description":"Search for 'Whitney Museum of American Art collection search'","independent":true,"self_contained":true,"id":"928782"}
+{"description":"Navigate to the Whitney Museum's collection search webpage.","independent":true,"self_contained":true,"id":"942252"}
+{"description":"Enter '2022.128' in the search box on the Whitney Museum's site and submit the search.","independent":true,"self_contained":true,"id":"892680"}
+{"description":"Open the result titled 'Rain in Rifle Season, Distributions from Split-Interest Trusts, Price Includes Uniform, Never Hit Soft, 2003'.","independent":true,"self_contained":true,"id":"532977"}
+{"description":"Verify that the photograph has the accession number '2022.128'.","independent":true,"self_contained":true,"id":"892449"}
+{"description":"Note that the subject of the photograph is holding the book 'On War' by Carl von Clausewitz.","independent":true,"self_contained":true,"id":"36638"}
+{"description":"Go to the Wikipedia page for Carl von Clausewitz.","independent":true,"self_contained":true,"id":"534897"}
+{"description":"Search the Wikipedia page for the year '1813' to find that Carl von Clausewitz joined the Russian-German Legion in that year.","independent":true,"self_contained":true,"id":"329761"}
+{"description":"Go to the Wikipedia page for Russian-German Legion to verify that this was a military unit.","independent":true,"self_contained":true,"id":"301680"}
+{"description":"Read the instructions provided and try to understand the original context by reversing the order of the sentences or steps.","independent":true,"self_contained":true,"id":"202432"}
+{"description":"Search the web for 'lord of the rings wikipedia' and retrieve the Wikipedia link.","independent":true,"self_contained":true,"id":"694105"}
+{"description":"Access the Wikipedia page for 'lord of the rings' and navigate to 'View history'.","independent":true,"self_contained":true,"id":"796695"}
+{"description":"Check the edit history of the 'lord of the rings' wiki page to see if it has changed since July 3, 2023.","independent":true,"self_contained":true,"id":"717661"}
+{"description":"Return to the current revision of the 'lord of the rings' Wikipedia page after checking the edit history.","independent":true,"self_contained":true,"id":"940606"}
+{"description":"Use Ctrl-F to search for the term 'song' on the current 'lord of the rings' Wikipedia page.","independent":true,"self_contained":true,"id":"125697"}
+{"description":"If 'A Song of Ice and Fire' is not found, search for a related link that might mention it.","independent":true,"self_contained":true,"id":"489320"}
+{"description":"Click on the link for 'High fantasy' found on the 'lord of the rings' page.","independent":true,"self_contained":true,"id":"535436"}
+{"description":"Check the edit history of the 'High fantasy' Wikipedia page to see if it has changed since July 3, 2023.","independent":true,"self_contained":true,"id":"642937"}
+{"description":"Return to the current revision of the 'High fantasy' page after checking its edit history.","independent":true,"self_contained":true,"id":"440056"}
+{"description":"Use Ctrl-F to search for the word 'song' on the 'High fantasy' Wikipedia page.","independent":true,"self_contained":true,"id":"899262"}
+{"description":"Count the total links to 'High fantasy' and 'A Song of Ice and Fire' pages found.","independent":true,"self_contained":true,"id":"152884"}
+{"description":"Open the spreadsheet you're working on to access the data and plots.","independent":true,"self_contained":true,"id":"215173"}
+{"description":"Examine the green cells in the spreadsheet for relevant information or patterns, making sure to take notes on important findings.","independent":true,"self_contained":true,"id":"288822"}
+{"description":"Understand and document the layout of Earl's plots, noting that their shape lacks a loop and includes dead-ends that require returning to previously-visited cells to navigate.","independent":true,"self_contained":true,"id":"100922"}
+{"description":"Open the spreadsheet to review food items.","independent":true,"self_contained":true,"id":"909793"}
+{"description":"Eliminate duplicate food items that may have different names.","independent":true,"self_contained":true,"id":"214093"}
+{"description":"(Optional) Look up any food names that are unrecognizable to clarify.","independent":true,"self_contained":true,"id":"814877"}
+{"description":"Identify and note down the remaining unique food items.","independent":true,"self_contained":true,"id":"767029"}
+{"description":"Open the XML file that contains food categories.","independent":true,"self_contained":true,"id":"753417"}
+{"description":"Locate the CATEGORIES label within the XML file.","independent":true,"self_contained":true,"id":"114535"}
+{"description":"Find and note the text element that matches the unique food identified.","independent":true,"self_contained":true,"id":"785014"}
+{"description":"Search the web for 'Virtue restaurant & bar Chicago'","independent":true,"self_contained":true,"id":"480062"}
+{"description":"Find the restaurant's website: https://www.virtuerestaurant.com","independent":true,"self_contained":true,"id":"891523"}
+{"description":"Find the page for the dinner menu at: https://www.virtuerestaurant.com/menus/","independent":true,"self_contained":true,"id":"87367"}
+{"description":"Paste the URL of the dinner menu page into the Wayback Machine at web.archive.org","independent":true,"self_contained":true,"id":"170897"}
+{"description":"Open the versions of the dinner menu page archived on March 22, 2021 and April 21, 2021","independent":true,"self_contained":true,"id":"403745"}
+{"description":"Ensure that both archived pages are open to the 'dinner menu' tab","independent":true,"self_contained":true,"id":"103099"}
+{"description":"Identify the 'large ration' item that was present on the March 22 version of the menu but missing on the April 21 version","independent":true,"self_contained":true,"id":"644000"}
+{"description":"Evaluate the first statement based on De Morgan's Laws, concluding it is a tautology.","independent":true,"self_contained":true,"id":"565999"}
+{"description":"Evaluate the second statement based on De Morgan's Laws, concluding it is a tautology.","independent":true,"self_contained":true,"id":"842700"}
+{"description":"Evaluate the third statement as the definition of the contrapositive, concluding it is a tautology.","independent":true,"self_contained":true,"id":"935676"}
+{"description":"Evaluate the fourth statement as an alternative formulation of a conditional, concluding it is a tautology.","independent":true,"self_contained":true,"id":"347259"}
+{"description":"Evaluate the fifth statement against truth values to determine if it's a tautology or not, determining it is not a tautology and stopping evaluation as required.","independent":true,"self_contained":true,"id":"134056"}
+{"description":"Calculate the number of adults in the given list: mother, father, brother, brother's wife, aunt, aunt's husband, grandma, grandma's brother, grandma's brother's daughter, grandma's brother's daughter's husband, and myself.","independent":true,"self_contained":true,"id":"667373"}
+{"description":"Calculate the number of children: niece, nephew, cousin, and the three kids of grandma's brother's daughter.","independent":true,"self_contained":true,"id":"786673"}
+{"description":"Subtract the number of second cousins from the total number of children calculated in step 2.","independent":true,"self_contained":true,"id":"845148"}
+{"description":"Calculate the total number of potatoes required for adults, given the adult count and the amount of potatoes eaten by each adult.","independent":true,"self_contained":true,"id":"261932"}
+{"description":"Calculate the total number of potatoes required for children, given the number of children from step 3 and the amount of potatoes eaten by each child.","independent":true,"self_contained":true,"id":"322407"}
+{"description":"Add the total potatoes required for adults and children to get the combined total of potatoes.","independent":true,"self_contained":true,"id":"150054"}
+{"description":"Multiply the total potatoes by the weight in pounds to find the total weight of potatoes needed.","independent":true,"self_contained":true,"id":"788948"}
+{"description":"Calculate the number of 5-lb bags needed by dividing the total pounds of potatoes by 5.","independent":true,"self_contained":true,"id":"352146"}
+{"description":"Round up the number of bags to determine the total number of 5-lb bags needed for the event.","independent":true,"self_contained":true,"id":"610590"}
+{"description":"Research Hreidmar and his sons to understand their significance in Norse mythology.","independent":false,"self_contained":true,"id":"598467"}
+{"description":"Investigate the character of Fafnir in mythology and literature, focusing on his portrayal as a guardian.","independent":true,"self_contained":true,"id":"418356"}
+{"description":"Analyze the article by Emily Midkiff from June 2014 concerning dragons in children's literature.","independent":false,"self_contained":false,"id":"71882"}
+{"description":"Explore the themes of trickery related to dragons in the works of Ruth Stein and Margaret Blount.","independent":true,"self_contained":true,"id":"830982"}
+{"description":"Summarize the findings of the article '“Dragons are Tricksy”: The Uncanny Dragons of Children’s Literature' in relation to Fafnir.","independent":false,"self_contained":false,"id":"847921"}
+{"description":"Search for 'Fiona Apple discography' and note her albums.","independent":true,"self_contained":true,"id":"750134"}
+{"description":"Identify Fiona Apple's album released prior to 1999, which is 'Tidal'.","independent":true,"self_contained":true,"id":"144696"}
+{"description":"Search for 'Paula Cole discography' and note her albums.","independent":true,"self_contained":true,"id":"716118"}
+{"description":"Identify Paula Cole's albums released prior to 1999, which are 'This Fire' and 'Harbinger'.","independent":true,"self_contained":true,"id":"547368"}
+{"description":"Search for 'Robert Christgau' and access his website.","independent":true,"self_contained":true,"id":"112608"}
+{"description":"Use Robert Christgau's website to search for 'Fiona Apple' and note his review for 'Tidal'.","independent":true,"self_contained":true,"id":"678650"}
+{"description":"Note that Robert Christgau's review for 'Tidal' was an emoticon, not a letter grade.","independent":true,"self_contained":true,"id":"996873"}
+{"description":"Use Robert Christgau's website to search for 'Paula Cole' and note his review for 'This Fire'.","independent":true,"self_contained":true,"id":"626567"}
+{"description":"Note that Robert Christgau's review for 'This Fire' was a C+ and that he did not review 'Harbinger'.","independent":true,"self_contained":true,"id":"927614"}
+{"description":"Search for Bielefeld University Library's BASE on Google.","independent":true,"self_contained":true,"id":"916092"}
+{"description":"Open the BASE search website (https://www.base-search.net/).","independent":true,"self_contained":true,"id":"375398"}
+{"description":"Click on the 'Browsing' option on the BASE website.","independent":true,"self_contained":true,"id":"159602"}
+{"description":"Select 'Dewey Decimal Classification (DDC) > 6 > 63 > 633'.","independent":true,"self_contained":true,"id":"595730"}
+{"description":"Refine search results to show only articles in Unknown Language.","independent":true,"self_contained":true,"id":"516766"}
+{"description":"Identify the only pre-2020 article with a unique flag in the search results.","independent":true,"self_contained":true,"id":"469064"}
+{"description":"Copy the country name associated with the institution from the article found.","independent":true,"self_contained":true,"id":"819864"}
+{"description":"Visit replit.com and navigate to the Blog section to learn about VSCode features.","independent":true,"self_contained":true,"id":"240450"}
+{"description":"Search for 'vscode' in the replit blog to find relevant topics.","independent":true,"self_contained":true,"id":"527910"}
+{"description":"Read the article 'Zero Setup VSCode Intelligence' from 2018 to understand its content.","independent":true,"self_contained":true,"id":"26168"}
+{"description":"Watch the video at the bottom of the article to see examples or demonstrations related to VSCode.","independent":true,"self_contained":true,"id":"296357"}
+{"description":"Note down the command 'Format Document' used in the VSCode presentation from the video.","independent":true,"self_contained":true,"id":"107436"}
+{"description":"Search for 'Tropicos ID Order Helotiales' and examine the first result.","independent":true,"self_contained":false,"id":"237311"}
+{"description":"Identify and extract the correct ID for 'Order Helotiales' from the first search result.","independent":true,"self_contained":false,"id":"538553"}
+{"description":"Use an ISBN 10 check digit calculator online or calculate the check digit manually.","independent":true,"self_contained":true,"id":"747729"}
+{"description":"Search the web for 'tri rail ridership may 2019'.","independent":true,"self_contained":true,"id":"545446"}
+{"description":"Click result for Tri-Rail website.","independent":true,"self_contained":true,"id":"852887"}
+{"description":"Click drop-down for 2019.","independent":true,"self_contained":true,"id":"707560"}
+{"description":"Click PDF for May 2019 ridership report.","independent":true,"self_contained":true,"id":"860590"}
+{"description":"Scroll down to find the statistics for each train.","independent":true,"self_contained":true,"id":"958709"}
+{"description":"Locate the ridership numbers for the 27th, and scroll to find the train with the highest number for that day: train number P685.","independent":true,"self_contained":true,"id":"532520"}
+{"description":"Search the web for 'tri rail schedule may 2019'.","independent":true,"self_contained":true,"id":"16635"}
+{"description":"Click result for Tri-Rail website.","independent":true,"self_contained":true,"id":"960933"}
+{"description":"Noticing that the train doesn’t appear on the weekday schedule, click the link for the weekend/holiday schedule. May 27th may have been a holiday.","independent":true,"self_contained":true,"id":"5878"}
+{"description":"Locate the time that P685 is scheduled to arrive at Pompano Beach: 6:41 PM.","independent":true,"self_contained":true,"id":"712303"}
+{"description":"To confirm, search 'may 2019 holidays'.","independent":true,"self_contained":true,"id":"178519"}
+{"description":"Verify that May 27th, 2019 was the Memorial Day holiday.","independent":true,"self_contained":true,"id":"865425"}
+{"description":"Since the Tri-Rail website didn’t give a date for its schedule, search the web for 'tri rail schedule changes' to see if the schedule has changed since 2019.","independent":true,"self_contained":true,"id":"415868"}
+{"description":"The only result mentioning a schedule change dates to 2015, so 6:41 PM seems like the answer.","independent":true,"self_contained":true,"id":"550140"}
+{"description":"Transcribe the audio file submitted by the user using speech-to-text tools.","independent":true,"self_contained":true,"id":"778260"}
+{"description":"Identify the reference to 'the bard' within the transcribed text and note the anagram provided.","independent":true,"self_contained":true,"id":"808128"}
+{"description":"Search for the meaning of 'the bard' and identify William Shakespeare.","independent":true,"self_contained":true,"id":"384646"}
+{"description":"Search for the anagram of the provided text and confirm the original quote from Hamlet.","independent":true,"self_contained":true,"id":"402312"}
+{"description":"Confirm the original quote corresponds with Hamlet and is accurately derived from the anagram.","independent":true,"self_contained":true,"id":"33617"}
+{"description":"Open the Job Listing PDF to review qualifications required for applicants.","independent":true,"self_contained":true,"id":"996019"}
+{"description":"Open the Applicants Excel file to review submitted applications.","independent":true,"self_contained":true,"id":"525716"}
+{"description":"Apply conditional formatting to the Applicants Excel file to highlight disqualified rows based on the qualifications listed in the Job Listing PDF.","independent":false,"self_contained":false,"id":"585767"}
+{"description":"Count the number of rows in the Applicants Excel that have exactly one missing qualification.","independent":false,"self_contained":false,"id":"603767"}
+{"description":"Search the web for 'world building transmedia fans industries' and locate a PDF link to an associated book.","independent":true,"self_contained":false,"id":"955314"}
+{"description":"Access the PDF file of the book found in the previous step and navigate to the Media Cited section.","independent":true,"self_contained":false,"id":"585335"}
+{"description":"Locate the mention of the horror movie, A Nightmare on Elm Street, within the Media Cited section of the essay by Valentina Re.","independent":true,"self_contained":false,"id":"23660"}
+{"description":"Confirm the relationship of A Nightmare on Elm Street to metalepsis from a dream world in the essay by Valentina Re.","independent":true,"self_contained":false,"id":"231975"}
+{"description":"Determine the order of words as Verb - Object - Subject, which means the verb comes first, then the object, followed by the subject.","independent":true,"self_contained":true,"id":"216965"}
+{"description":"Identify the present form of the verb 'like', which in the context given is 'Maktay'.","independent":true,"self_contained":true,"id":"6056"}
+{"description":"Determine that since the person doing the liking is the object, the next word must be the object form of 'oneself', which should be 'mato'.","independent":true,"self_contained":true,"id":"293338"}
+{"description":"Establish that the accusative form of 'oneself' is 'mato'.","independent":true,"self_contained":true,"id":"476086"}
+{"description":"Recognize that the nominative form for 'apple' is simply 'apple'.","independent":true,"self_contained":true,"id":"467313"}
+{"description":"Assemble the words into the correct order based on the established Verb - Object - Subject sequence, resulting in 'Maktay apple mata'.","independent":true,"self_contained":true,"id":"492427"}
+{"description":"Search the Metropolitan Museum of Art's collection for a specific artwork using its Accession Number.","independent":true,"self_contained":true,"id":"907410"}
+{"description":"Locate the portrait 'Cardinal Fernando Niño de Guevara' and gather brief details about it.","independent":true,"self_contained":true,"id":"709579"}
+{"description":"Research the background of Bishop Fernando Niño de Guevara.","independent":true,"self_contained":true,"id":"8630"}
+{"description":"Identify the co-consecrators involved in Fernando Niño de Guevara's episcopal consecration.","independent":true,"self_contained":true,"id":"184275"}
+{"description":"Examine the contributions of Camillo Borghese and determine his historical significance apart from being a co-consecrator.","independent":true,"self_contained":true,"id":"20271"}
+{"description":"Investigate Alfonso Visconti's role and significance in ecclesiastical history.","independent":true,"self_contained":true,"id":"638858"}
+{"description":"Conclude which of the co-consecrators is not a pope and provide supporting information.","independent":true,"self_contained":true,"id":"120353"}
+{"description":"Search for 'nature scientific reports' on Google and access the website.","independent":true,"self_contained":true,"id":"264086"}
+{"description":"Navigate to the 'Research Articles' section of the Nature Scientific Reports website.","independent":true,"self_contained":true,"id":"26495"}
+{"description":"Apply a filter to show only Conference Proceedings from the year 2012 within the Research Articles section.","independent":true,"self_contained":true,"id":"297534"}
+{"description":"Open each article link one by one to examine their content.","independent":true,"self_contained":true,"id":"151803"}
+{"description":"Conduct a search within each article for the terms 'plasmon' or 'plasmonic'.","independent":true,"self_contained":true,"id":"125156"}
+{"description":"Identify and note any nano-compound mentioned in the article that does not include the terms 'plasmon' or 'plasmonic'.","independent":true,"self_contained":true,"id":"193544"}
+{"description":"Open the attached spreadsheet and locate the revenue and rent columns.","independent":true,"self_contained":true,"id":"81000"}
+{"description":"Insert a formula to divide the revenue by the rent for each vendor row. The formula in Excel would look something like `=A2/B2` if revenue is in column A and rent is in column B. Drag the formula down to apply it to all rows.","independent":true,"self_contained":true,"id":"654310"}
+{"description":"Identify the lowest result from the calculated values and note the corresponding value in the 'type' column for that vendor.","independent":true,"self_contained":true,"id":"502098"}
+{"description":"Query Google Finance for Apple's stock price history.","independent":true,"self_contained":true,"id":"62143"}
+{"description":"Access the first link from Google Finance search results.","independent":false,"self_contained":true,"id":"539965"}
+{"description":"Set the time filter to 'max' to display all historical data for Apple stock.","independent":false,"self_contained":true,"id":"614655"}
+{"description":"Identify the date when Apple stock crossed over $50 based on the max historical data displayed.","independent":false,"self_contained":true,"id":"513970"}
+{"description":"Evaluate the chess position, analyzing the arrangement and potential strategies for both black and white pieces.","independent":true,"self_contained":true,"id":"419867"}
+{"description":"Determine if the move 'Rd5' is the best available move for black based on the current chess position and potential outcomes in the game.","independent":true,"self_contained":true,"id":"72389"}
+{"description":"List the top 10 highest-grossing worldwide movies of 2020 from Box Office Mojo.","independent":true,"self_contained":true,"id":"409797"}
+{"description":"Sort the highest-grossing domestic movies of 2020 and identify those that also appeared in the worldwide top 10.","independent":true,"self_contained":true,"id":"341431"}
+{"description":"Count the number of movies that appear in both the top 10 worldwide and the top 10 domestic lists for 2020.","independent":true,"self_contained":true,"id":"84280"}
+{"description":"Conduct an overview of legumes based on the Wikipedia article to summarize their characteristics and types.","independent":true,"self_contained":true,"id":"209011"}
+{"description":"Identify the different types of logs available in the Wikipedia page history and explain their purposes.","independent":true,"self_contained":true,"id":"439112"}
+{"description":"Research the meaning of the term 'R' in the context of Wikipedia page logs, especially regarding BLP (Biographies of Living Persons) violations.","independent":true,"self_contained":true,"id":"662647"}
+{"description":"Analyze the BLP violations related to legumes if any are present, and summarize their implications for the Wikipedia page.","independent":true,"self_contained":true,"id":"665035"}
+{"description":"Evaluate the changes made to the Wikipedia page from November 2022 onwards based on the history logs reviewed.","independent":true,"self_contained":true,"id":"115709"}
+{"description":"Search for 'Wikipedia featured articles promoted in November 2016' on Google.","independent":true,"self_contained":true,"id":"17135"}
+{"description":"Click through to the appropriate Wikipedia page containing featured articles from November 2016.","independent":true,"self_contained":true,"id":"932970"}
+{"description":"Locate the name of the person who nominated the article 'Giganotosaurus' on the November 2016 featured articles page.","independent":true,"self_contained":true,"id":"139854"}
+{"description":"Search for 'merriam-webster word of the day' on Google.","independent":true,"self_contained":true,"id":"41245"}
+{"description":"Open the top result for 'Word of the Day' from Merriam-Webster online.","independent":true,"self_contained":true,"id":"67128"}
+{"description":"Click 'SEE ALL WORDS OF THE DAY' on the Merriam-Webster page.","independent":true,"self_contained":true,"id":"407784"}
+{"description":"Scroll to June 27, 2022, on the Words of the Day list.","independent":true,"self_contained":true,"id":"207707"}
+{"description":"Open the entry for the Word of the Day 'jingoism'.","independent":true,"self_contained":true,"id":"180286"}
+{"description":"Scroll down to find the context quote for 'jingoism'.","independent":true,"self_contained":true,"id":"587592"}
+{"description":"Note the name attributed to the quote for 'jingoism'.","independent":true,"self_contained":true,"id":"322324"}
+{"description":"Open a web browser","independent":true,"self_contained":true,"id":"37986"}
+{"description":"Go to a search engine","independent":true,"self_contained":true,"id":"961131"}
+{"description":"Search for \"2023 IPCC report\"","independent":true,"self_contained":true,"id":"879957"}
+{"description":"Click on the link for \"AR6 Synthesis Report: Climate Change 2023\"","independent":true,"self_contained":true,"id":"721101"}
+{"description":"Click on \"Read the Report\"","independent":true,"self_contained":true,"id":"467605"}
+{"description":"Click on \"SYR (Full volume)\"","independent":true,"self_contained":true,"id":"9800"}
+{"description":"Check the page count of the PDF","independent":true,"self_contained":true,"id":"675817"}
+{"description":"Go back to the previous page (report is too long)","independent":true,"self_contained":true,"id":"584337"}
+{"description":"Click on \"Longer Report\"","independent":true,"self_contained":true,"id":"297760"}
+{"description":"Check the page count of the PDF","independent":true,"self_contained":true,"id":"454640"}
+{"description":"Search for \"nuclear energy\" within the PDF","independent":true,"self_contained":true,"id":"489474"}
+{"description":"Look at the total number of hits","independent":true,"self_contained":true,"id":"571486"}
+{"description":"Compile the markdown for the provided table and ensure it's properly formatted.","independent":true,"self_contained":true,"id":"834287"}
+{"description":"Analyze the table for symmetry by checking the values across the diagonal.","independent":true,"self_contained":true,"id":"159070"}
+{"description":"Identify and confirm that the multiplication of b * e does not equal e * b, while all other entries are symmetrical in the table.","independent":true,"self_contained":true,"id":"558594"}
+{"description":"Verify the calculations for the check digit using the ISBN calculation method for the provided numbers with the errors from column transpositions.","independent":true,"self_contained":true,"id":"676196"}
+{"description":"Identify any additional valid solutions (n, m) for the column transpositions based on the calculations and modular equations provided.","independent":true,"self_contained":true,"id":"160778"}
+{"description":"Compile a summary of how the check digit calculations were performed for each number in relation to the column transposition issues identified.","independent":true,"self_contained":true,"id":"931566"}
+{"description":"Investigate potential edge cases or alternative methods of ISBN error resolution that could yield different valid solutions.","independent":true,"self_contained":true,"id":"15167"}
+{"description":"Discuss the implications of the identified solution (7, 9) and its significance in the context of check digit validation issues for ISBNs.","independent":true,"self_contained":true,"id":"893209"}

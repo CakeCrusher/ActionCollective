@@ -56,6 +56,8 @@ class ActionClient:
         self,
         action_data: Optional[ActionData] = None,
         action_thought: Optional[ActionCollectiveRequest] = None,
+        retrieve_top_k: int = 10,
+        retrieve_threshold: float = 0.7,
         max_retries: int = 3,
     ) -> ActionData:
         """Retrieve an existing action or generate a new one"""
@@ -89,7 +91,9 @@ class ActionClient:
 
         # Try to retrieve existing action or create new one
         actions = await self.backend.retrieve_actions(
-            self.chat_history + self.internal_chat_history
+            self.chat_history + self.internal_chat_history,
+            top_k=retrieve_top_k,
+            threshold=retrieve_threshold
         )
 
         if self.verbose:

@@ -43,7 +43,8 @@ Simple example of a JSON Schema for input_json_schema and output_json_schema:
     "required": ["value", "id"],
     "additionalProperties": false,
 }```
-MAKE SURE TO INCLUDE A DESCRIPTION FOR ALL PROPERTINES NOT ONLY THE ROOT BUT ALL NESTED PROPERTIES""",
+MAKE SURE TO INCLUDE A DESCRIPTION FOR ALL PROPERTIES INCLUDING THE ROOT OBJECT AND ALL NESTED PROPERTIES
+MAKE SURE TO ADD THE REQUIRED ITEM""",
     )
     output_json_schema: str = Field(
         ...,

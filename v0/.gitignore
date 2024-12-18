@@ -46,7 +46,7 @@ backend-env/
 .docker/
 
 # Logs
-*.log
+# *.log
 logs/
 
 # Database
