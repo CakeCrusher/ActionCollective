@@ -13,6 +13,7 @@ pip install action-collective
 ```
 
 ## Basic Example
+Play around with it using this [colab notebook](https://colab.research.google.com/drive/11hug2jvigZZnT--jIZ-AFZq_E69wGtZx?usp=sharing).
 ```python
 from action_collective import ActionClient
 import json
