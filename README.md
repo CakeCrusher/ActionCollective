@@ -1,8 +1,65 @@
+# Action Collective
+A framework for LLM agents that lets them dynamically generate and reuse actions by writing Python functions, rather than relying on a fixed set.
+
 Inspired by [DynaSaur: Large Language Agents Beyond Predefined Actions](https://arxiv.org/abs/2411.01747)
 
 Written by Sebastian Sosa in collaboration with [ChatGPT](https://chatgpt.com/share/675d01d9-82d4-8011-baf8-056340780afe) 
 
 Presenting @ [Latent Space Discord](https://discord.gg/vGERHJVC) Paper Club 12/18
+
+## Installation
+```bash
+pip install action-collective
+```
+
+## Basic Example
+```python
+from action_collective import ActionClient
+import json
+import os
+
+client = ActionClient(
+    openai_api_key=os.getenv("OPENAI_API_KEY"),
+    backend_url=os.getenv("BACKEND_URL", "http://70.179.0.242:11000"),
+    verbose=True,
+)
+prompt = """Please perform the matrix multiplication of A x B and return the result, here are the variables:
+A = [[1, 2, 3, 4, 5],
+        [6, 7, 7, 9, 10],
+        [11, 12, 13, 14, 15],
+        [16, 17, 7, 19, 20],
+        [21, 22, 23, 24, 25]]
+B = [[1, 2, 3, 4, 5],
+        [6, 7, 8, 9, 10],
+        [11, 12, 7, 14, 15],
+        [16, 17, 18, 19, 20],
+        [21, 22, 23, 24, 25]]"""
+
+chat_history = [{"role": "user", "content": prompt}]
+
+result = await client.execute(chat_history=chat_history)
+print("\n\nresult:\n", json.dumps(result, indent=4), "\n\n")
+
+# Validate the result
+import numpy as np
+A = [[1, 2, 3, 4, 5],
+        [6, 7, 7, 9, 10],
+        [11, 12, 13, 14, 15],
+        [16, 17, 7, 19, 20],
+        [21, 22, 23, 24, 25]]
+B = [[1, 2, 3, 4, 5],
+        [6, 7, 8, 9, 10],
+        [11, 12, 7, 14, 15],
+        [16, 17, 18, 19, 20],
+        [21, 22, 23, 24, 25]]
+matrix_result = np.dot(A, B)
+# validate that each of the number inside matrix exist in the result string
+assert result is not None
+for row in matrix_result:
+    for number in row:
+        assert str(number) in result[-1]["content"]
+print("\n\nPASSED\n\n")
+```
 
 # Action Collective Manifesto: Community Driven Actions Database
 

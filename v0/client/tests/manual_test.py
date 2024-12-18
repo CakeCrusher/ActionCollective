@@ -26,6 +26,7 @@ async def main():
             [11, 12, 7, 14, 15],
             [16, 17, 18, 19, 20],
             [21, 22, 23, 24, 25]]"""
+    prompt = "Visit the 'Physics and Society' category page on arxiv.org and note its tag: 'physics.soc-ph'."
 
     chat_history = [{"role": "user", "content": prompt}]
 
